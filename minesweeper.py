@@ -1,6 +1,6 @@
 # Minesweeper
 #
-# Modified for use in CSC184 - Missouri Western State University
+# Modified for use in CS152 - Park University
 # Original source code: https://github.com/ripexz/python-tkinter-minesweeper
 
 from tkinter import *
