@@ -82,7 +82,7 @@ def setup():
         mines = 0
         for x in range(0, SIZE_X):
             for y in range(0, SIZE_Y):
-                if y == 0:
+                if y == 0:                      ## To determine whether range selected in the previous for loop is true
                     tiles[x] = {}
 
                 id = str(x) + "_" + str(y)
@@ -92,7 +92,7 @@ def setup():
                 gfx = images["plain"]
 
                 # currently random amount of mines
-                if random.uniform(0.0, 1.0) < 0.1:
+                if random.uniform(0.0, 1.0) < 0.1:      ## To determine if the random number generated between 0 and 1 is less than 0.1 to determine if isMine is True
                     isMine = True
                     mines += 1
 
